@@ -1,10 +1,10 @@
-import p1 from '../images/headerStuf/p1.png'
-import p2 from '../images/headerStuf/p2.png'
-import p3 from '../images/headerStuf/p3.png'
-import p4 from '../images/headerStuf/p4.png'
-import p5 from '../images/headerStuf/p5.png'
-import p6 from '../images/headerStuf/p6.png'
-import c3 from '../images/headerStuf/c3.jpg'
+import p1 from '../../images/headerStuf/p1.png'
+import p2 from '../../images/headerStuf/p2.png'
+import p3 from '../../images/headerStuf/p3.png'
+import p4 from '../../images/headerStuf/p4.png'
+import p5 from '../../images/headerStuf/p5.png'
+import p6 from '../../images/headerStuf/p6.png'
+import c3 from '../../images/headerStuf/c3.jpg'
 
 const Header = () => {
     return (

@@ -1,7 +1,7 @@
-import pizza1 from '../images/products/pizza1.png'
-import pizza2 from '../images/products/pizza2.png'
-import food1 from '../images/products/food1.png'
-import burger from '../images/products/burger1.png'
+import pizza1 from '../../images/products/pizza1.png'
+import pizza2 from '../../images/products/pizza2.png'
+import food1 from '../../images/products/food1.png'
+import burger from '../../images/products/burger1.png'
 
 const HotSales = () => {
     return (

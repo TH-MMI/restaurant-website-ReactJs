@@ -1,5 +1,5 @@
-import c2 from '../images/aboutUs/c2.png'
-import c3 from '../images/aboutUs/c3.jpg'
+import c2 from '../../images/aboutUs/c2.png'
+import c3 from '../../images/aboutUs/c3.jpg'
 
 const AboutUs = () => {
     return (
