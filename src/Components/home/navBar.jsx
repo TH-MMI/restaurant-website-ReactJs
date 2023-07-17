@@ -1,10 +1,29 @@
-import logo from '../../images/logo.png'
+import { useState , useEffect } from "react";
 const NavBar = () => {
+    const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    // Function to handle the scroll event
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
     return (
-        <nav class="navbar" id="navBarContainer" >
-            <div class='logo' id="navBarLogo" >
+        <nav className={scrolled? "navbar navbar-scrolled" : "navbar "} id="navBarContainer" >
+            <div className='logo' id="navBarLogo" >
                 <a href="/">
-                    <img src={logo} alt="" width='50' />
+                <img src="https://drive.google.com/uc?export=view&id=1IciKVB_Q-GHt0pWES7zE9CpvhehGumrq" alt="" width='50'/>
                 </a>
          </div >
          <ul>
@@ -13,9 +32,8 @@ const NavBar = () => {
              <li><a href="/store">SHOP</a></li>
              <li><a href="">FIND US</a></li>
          </ul>
-         <div class='logo'>
-             <a class='btn login' href="/login">LOG IN</a>
-             <a class='btn' href="/register">JOIN US</a>
+         <div className='logo'>
+             <a className='btn' href="/register">JOIN US</a>
          </div>
      </nav >
     )

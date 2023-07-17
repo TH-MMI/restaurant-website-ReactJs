@@ -1,0 +1,79 @@
+@media screen and (max-width: 1000px) {
+    .hero {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45vh;
+        margin-top: 9vh;
+    }
+
+    .hero h1 {
+        opacity: 1;
+        font-weight: 400;
+        font-size: 40px;
+        top: 130px;
+    }
+
+    .hero .picture1,
+    .picture2,
+    .picture3,
+    .picture4,
+    .picture5,
+    .picture6 {
+        display: none;
+    }
+
+    .hero .centerPicture {
+        width: 100%;
+        border-radius: 0;
+        object-fit: cover;
+    }
+
+    /* HOT SALES CSS -------------------------------------------------------------------------------------------------> */
+
+    .hotsales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        height: 250vh;
+        background-color: rgb(12, 12, 12);
+        padding-top: 50px;
+        position: relative;
+        box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.7);
+    }
+
+    /* ABOUT US CSS -------------------------------------------------------------------------------------------------> */
+
+    .aboutus {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 120px; */
+        height: 120vh;
+        background-color: #101112;
+        width: 100%;
+    
+    }
+
+    .aboutus .c2 {
+        box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.4);
+        position: relative;
+        width: 350px;
+    }
+    
+    .aboutus .c1 {
+        box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.4);
+        position: relative;
+        width: 250px;
+    }
+
+    .aboutus p {
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+    }
+
+}

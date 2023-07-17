@@ -7,12 +7,12 @@ import l6 from '../../images/gallery/l6.jpg'
 
 const Gallery = () => {
     return (
-        <div class="imagelist">
-        <img class='l1' src={l1} alt="" width='160' />
-        <img class='l2' src={l2} alt="" width='160' />
-        <img class='l3' src={l3} alt="" width='160' />
-        <img class='l4' src={l4} alt="" width='160' />
-        <img class='l5' src={l6} alt="" width='160' />
+        <div className="imagelist">
+        <img className='l1' src={l1} alt="" width='160' />
+        <img className='l2' src={l2} alt="" width='160' />
+        <img className='l3' src={l3} alt="" width='160' />
+        <img className='l4' src={l4} alt="" width='160' />
+        <img className='l5' src={l6} alt="" width='160' />
     </div>
     )
 }

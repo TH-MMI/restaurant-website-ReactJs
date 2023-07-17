@@ -5,6 +5,7 @@ import Header from './header';
 import HotSales from './hotSales';
 import NavBar from './navBar'
 import '../../css/home.css'
+import '../../css/mobileSize.css'
 
 function Home() {
   return (
