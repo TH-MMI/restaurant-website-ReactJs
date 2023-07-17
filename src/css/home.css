@@ -280,34 +280,74 @@ body {
 
 /* ABOUT US CSS -------------------------------------------------------------------------------------------------> */
 
-.aboutus {
+ .aboutus {
     position: relative;
-    display: flex;
-    justify-content: center;
-    gap: 120px;
-    height: 95vh;
     background-color: #101112;
-
+    padding: 40px 0;
+    min-height: 70vh;
+    padding-bottom: 150px;
 }
 
-.aboutus .line {
-    position: absolute;
-    width: 1px;
-    background-color: white;
-    opacity: 0.4;
+
+.aboutus h1 {
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    padding-top: 0;
 }
 
 .aboutUsContent{
-    margin-top: 20vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 50px;
+    margin-top: 40px;
 }
 
-.aboutUsPictures{
+.aboutus .paragraph {
+    width: 100%;
+    letter-spacing: 2px;
+    font-weight: 200;
+    line-height: 2.8;
+    padding: 0px 50px ;
+}
+
+.aboutus .paragraph p{
+    width: 80%;
+} 
+
+.aboutUsContent .aboutUsPictures{
     position: relative;
     width: 100%;
-    height: 100%;
+    text-align: center;
+}
+
+.aboutus .c2 {
+    position: absolute;
+    top : 0 ;
+    right: 0;
+    width: 550px;
+}
+
+.aboutus .c1 {
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.4);
+    position: absolute;
+    left: 150px;
+    bottom: 0px;
+}
+
+/*
+
+
+.aboutUsContent .aboutUsPictures{
+    position: relative;
+    background-color: #f39237;
+    width: 50%;
+    z-index: 10;
 }
 
 .aboutus .c2 {
@@ -322,18 +362,9 @@ body {
     bottom: 200px;
 }
 
-.aboutus h1 {
-    font-size: 50px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    color: rgb(255, 255, 255);
-    position: absolute;
-    top: 50px;
-
-}
 
 .aboutus .paragraph {
-    width: 100%;
+    width: 50%;
     letter-spacing: 2px;
     font-weight: 200;
     line-height: 2.8;
@@ -342,7 +373,7 @@ body {
 
 .aboutus .paragraph p{
     width: 80%;
-}
+} */
 
 /* HOT SALES CSS -------------------------------------------------------------------------------------------------> */
 

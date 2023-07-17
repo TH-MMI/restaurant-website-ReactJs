@@ -1,4 +1,4 @@
-const Products = require('../../json/products.json')
+import Products from '../../json/products'
 
 const HotSales = () => {
     return (

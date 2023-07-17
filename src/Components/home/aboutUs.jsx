@@ -6,6 +6,7 @@ const AboutUs = () => {
         <div className="aboutus">
             <h1>About Us</h1>
             <div className="aboutUsContent">
+                
                 <div className='aboutUsPictures'>
                     <img className='c2' src={c2} alt="" width='700' />
                     <img className='c1' src={c3} alt="" width='400' />
@@ -20,6 +21,7 @@ const AboutUs = () => {
                         inviting atmosphere where you can relax, savor, and enjoy. Come join us for an unforgettable dining experience.
                     </p>
                 </div>
+
             </div>
             <div className='line'></div>
 
