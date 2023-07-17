@@ -1555,3 +1555,93 @@ body {
     }
 
 }
+
+/* Default styles */
+
+/* Add the following media query at the end of your CSS */
+
+@media only screen and (max-width: 600px) {
+    body {
+      padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .navbar {
+      padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .navbar ul {
+      gap: 20px; /* Adjust gap between menu items for smaller screens */
+    }
+  
+    .navbar .btn.login,
+    .navbar .btn.connected {
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+  
+    .hero h1 {
+      font-size: 40px; /* Adjust font size for smaller screens */
+    }
+  
+    .aboutus {
+      flex-direction: column; /* Stack elements vertically for smaller screens */
+      align-items: center;
+      gap: 50px;
+      height: auto; /* Adjust height for smaller screens */
+    }
+  
+    .aboutus .c2,
+    .aboutus .c1 {
+      left: auto; /* Reset absolute positioning for smaller screens */
+      top: auto;
+    }
+  
+    .aboutus h1 {
+      top: auto;
+      text-align: center; /* Center align heading for smaller screens */
+    }
+  
+    .aboutus p {
+      position: static; /* Reset absolute positioning for smaller screens */
+      width: 100%; /* Adjust width for smaller screens */
+      text-align: center; /* Center align text for smaller screens */
+    }
+  
+    .hotsales {
+      height: auto; /* Adjust height for smaller screens */
+      padding-top: 30px; /* Adjust padding for smaller screens */
+      padding-bottom: 50px; /* Adjust padding for smaller screens */
+    }
+  
+    .hotsales h1 {
+      font-size: 30px; /* Adjust font size for smaller screens */
+    }
+  
+    .hotsales .products-container {
+      width: 100%; /* Adjust width for smaller screens */
+    }
+  
+    .hotsales .product-card {
+      width: 100%; /* Adjust width for smaller screens */
+    }
+  
+    .imagelist {
+      height: auto; /* Adjust height for smaller screens */
+    }
+  
+    .footer {
+      height: auto; /* Adjust height for smaller screens */
+      padding-top: 50px; /* Adjust padding for smaller screens */
+    }
+  
+    .footer h1 {
+      font-size: 30px; /* Adjust font size for smaller screens */
+    }
+  
+    .footer .footer-content {
+      width: 100%; /* Adjust width for smaller screens */
+      flex-direction: column; /* Stack elements vertically for smaller screens */
+      gap: 30px;
+      text-align: center; /* Center align text for smaller screens */
+    }
+  }
+  
